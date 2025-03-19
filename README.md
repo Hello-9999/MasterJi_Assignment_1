@@ -8,14 +8,14 @@ A simple web-based Mood Tracker that allows users to log their daily mood and vi
 ✅ Simple and user-friendly interface  
 
 ## Screenshots  
-### Mood Selection  
-![Mood Selection](link-to-image)  
+
 
 ### Weekly View  
-![Weekly View](link-to-image)  
+<img src="./img/week.png">
 
-### Monthly View  
-![Monthly View](link-to-image)  
+
+### Calender View  
+<img src="./img/calender.png">
 
 ## Live Demo  
 🔗 [View Project](your-deployment-link)  
