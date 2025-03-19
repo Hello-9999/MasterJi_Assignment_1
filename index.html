@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Mood Tracker</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Mood Tracker</h1>
+        <div class="view-controls">
+          <button class="view-btn active" data-view="week">Week</button>
+          <button class="view-btn" data-view="month">Month</button>
+          <button class="view-btn" data-view="calendar">Calendar</button>
+        </div>
+      </header>
+
+      <div class="mood-input-section">
+        <h2>How are you feeling today?</h2>
+        <div class="mood-selector">
+          <button class="mood-btn" data-mood="happy">😊</button>
+          <button class="mood-btn" data-mood="excited">🤗</button>
+          <button class="mood-btn" data-mood="neutral">😐</button>
+          <button class="mood-btn" data-mood="sad">😔</button>
+          <button class="mood-btn" data-mood="angry">😠</button>
+        </div>
+      </div>
+
+      <div class="timeline-navigation">
+        <button id="prevBtn" class="nav-btn">←</button>
+        <span id="currentPeriod"></span>
+        <button id="nextBtn" class="nav-btn">→</button>
+      </div>
+
+      <div class="view-container">
+        <div id="weekView" class="view active"></div>
+        <div id="monthView" class="view"></div>
+        <div id="calendarView" class="view"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
